@@ -1,0 +1,25 @@
+{
+  "short_name": "Audomate",
+  "name": "Audomate - Regulatory Compliance Platform",
+  "icons": [
+    {
+      "src": "audomate-logo.png",
+      "type": "image/png",
+      "sizes": "331x71"
+    },
+    {
+      "src": "audomate-logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "audomate-logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#52ad80",
+  "background_color": "#ffffff"
+}

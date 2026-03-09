@@ -1,0 +1,80 @@
+[
+  [
+    "List all the rights of the token holders and investors, making sure to avoid including restrictions and avoid including rights of the token issuer itself. Provide a short description of each. Format your answer as a Python list of strings. If none exist or the information cannot be found, return an empty list.",
+    "List all the obligations and/or restrictions of the token holders and investors, making sure to avoid listing obligations of the token issuer itself. Provide a short description of each.Format your answer as a Python list of strings. If none exist or the information cannot be found, return an empty list."
+  ],
+  [
+    "Given the following right granted to the token holder: {right}, provide the following in no more than 100 words: List the prerequisites that the token holder must satisfy as a condition to the right. If no information is available, simply answer “No information”",
+    "Given the following right granted to the token holder: {right}, provide the following in no more than 100 words: Actions that the token holder must take during its exercising of the right. If no information is available, simply answer “No information”",
+    "Given the following right granted to the token holder: {right}, provide the following in no more than 100 words: Actions that the token holder must take after having exercised the right. If no information is available, simply answer “No information”",
+    "Given the following right granted to the token holder: {right}, provide the following in no more than 100 words: Time limits on the token-holder's claim of the right. If no information is available, simply answer “No information”",
+    "Given the following right granted to the token holder: {right}, provide the following in no more than 100 words: Permissions required by the token holder before claiming the right. If no information is available, simply answer “No information”",
+    "Given the following right granted to the token holder: {right}, provide the following in no more than 100 words: Any third parties that the token holder needs to interact with before claiming the right. If no information is available, simply answer “No information”",
+    "Given the following right granted to the token holder: {right}, provide the following in no more than 100 words: Any limits to the token-holder’s exercising of the right. If no information is available, simply answer “No information”"
+  ],
+  [
+    "Can the rights and obligations provided in the document be modified by the issuer or token-holder? Answer simply “Yes”, “No” or “Don't know”.",
+    "Using just the information in the document, describe the procedure with which rights and obligations for token holders can be modified. Make sure to include the following information in your answer if you can find it: \n - Any pre-conditions to such modifications. \n - Whether a party can make a modification unilaterally or whether it requires the consent of the other party \n -If one party can make a modification unilaterally, whether it has to notify the other party and, if so, with which modalities. If no information is available, simply answer “No information”"
+  ],
+  [
+    "Indicate whether there are any future public offers or sales of crypto-assets planned by the issuer after {this month}. Say “Yes”, “No” or “Don't know”",
+    "List short summaries of each public offer or sale to occur after {enter this month}. Format your answer as a Python list."
+  ],
+  [
+    "Given the following token offering: {off}, provide the following: IS there a minimum number of tokens needed for the offering to take place? If so, what is that threshold? If no information is available, simply answer “No information”",
+    "Given the following token offering: {off}, provide the following: Is there a maximum number of tokens that will be sold as part of the offering? If so, what is that maximum value? If no information is available, simply answer “No information”",
+    "Given the following token offering: {off}, provide the following: The issue price of the token or asset (expressed in whichever currency is given) If no information is available, simply answer “No information”",
+    "Given the following token offering: {off}, provide the following: The subscription fees (expressed in whichever currency is given) If no information is available, simply answer “No information”",
+    "Given the following token offering: {off}, provide the following: The amount of crypto assets offered. If no information is available, simply answer “No information”",
+    "Given the following token offering: {off}, provide the following: The category or categories of buyers to which the offer will be made (e.g. retail investors, professional investors, current holders, etc)? If no information is available, simply answer “No information”",
+    "Given the following token offering: {off}, provide the following: Any conditions or restrictions attached to the offering. If no information is available, simply answer “No information”",
+    "Given the following token offering: {off}, provide the following: Whether the offering will be broken down into dedicated phases (with or without discounts) or just have one phase. Provide the date or dates for each phase. If no information is available, simply answer “No information”",
+    "Given the following token offering: {off}, provide the following: The CASP in charge of placing the crypto assets. If no information is available, simply answer “No information”",
+    "Given the following token offering: {off}, provide the following: The jurisdictions where the offering is applicable. If no information is available, simply answer “No information”",
+    "Given the following token offering: {off}, provide the following: List the specific ways in which the offering will support the delivery of the project. Provide dates and amounts where possible. If no information is available, simply answer “No information”"
+  ],
+  [
+    "Are there any tokens held in reserve, possibly in a treasury account, for future allocation? Say “Yes”, “No” or “Don't know”",
+    "In numeric form,  provide the number of tokens kept in reserve for future allocations"
+  ],
+  [
+    "Provide the list of goods and services that the token gives access to. Provide a short description of each good or service including any information about quantities. Format your answer as a Python list of strings. If none exist or the information cannot be found, return an empty list."
+  ],
+  [
+    "Provide the procedure to exchange tokens for the following good or service: {service}"
+  ],
+  ["Is the issuer seeking an admission to trading? Say “Yes” or “No”"],
+  [
+    "List the procedures and the places where the token can be purchased or sold after the offer to the public."
+  ],
+  [
+    "Provide details of extra restrictions for transferring the token and how these restrictions are put in place- for example these restrictions may occcur between token holders, may be time-related restrictions or may restrict platforms on which the token may be used to redeem services . If no information is available, simply answer “No information”"
+  ],
+  [
+    "Do mechanisms exist that alter the token supply in response to user demand? Say \"Yes\", \"No\" or \"Don't know\""
+  ],
+  [
+    "Earlier you said that one or more mechanisms exist that alter the token supply in response to user demand. Describe these in maximum 200 words."
+  ],
+  [
+    "Does the crypto-asset/token have a protection scheme protecting its value? Say \"Yes\", \"No\" or \"No information\""
+  ],
+  [
+    "Earlier you said that the project has an asset-value protection scheme. Provide a description of the protection schemes protecting the value of the crypto- assets."
+  ],
+  [
+    "Does the crypto-asset have a compensation scheme? Say \"Yes\", \"No\" or \"Don't know\""
+  ],
+  [
+    "Earlier you mentioned that the crypto asset has a compensation scheme. Provide its details in no more than 200 words."
+  ],
+  [
+    "Is there a contract or other set of terms provided by the issuer that govern how token-holders may hold or use the tokens? If the answer is negative,  provide a standard answer: \"In the absence of  written terms and conditions it is likely that  the applicable  law is the law of the country where the token holder resides.\".",
+    "List the jurisdictions for disputes regarding the token.  If none exist or the information cannot be found, return an empty list.",
+    "In the event of a dispute between the token-holder and the issuer, describe the mechanism to decide which jurisdiction should apply to resolve the dispute."
+  ],
+  [
+    "List the competent courts for disputes regarding the token.  If none exist or the information cannot be found, return an empty list.",
+    "In the event of a dispute between the token-holder and the issuer, describe the mechanism to determine which jurisdiction’s courts should have authority to resolve the dispute."
+  ]
+]
