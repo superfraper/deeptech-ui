@@ -1,10 +1,7 @@
 import { useAuth0 } from '@auth0/auth0-react';
 
 const API_BASE_URL =
-  process.env.REACT_APP_API_URL ||
-  (typeof window !== 'undefined' && window.location.protocol === 'https:'
-    ? window.location.origin
-    : 'http://localhost:8000');
+  process.env.REACT_APP_API_URL || '';
 
 console.log('API_BASE_URL:', API_BASE_URL);
 
