@@ -86,11 +86,18 @@ const OnboardVendorWizard = () => {
         approved: true,
       });
 
+      const updatedStepData = {
+        ...(qualification.step_data || {}),
+        [`step_${activeTab}`]: stepData,
+        ...stepData,
+      };
+
       if (activeTab < 4) {
         setActiveTab(activeTab + 1);
         setQualification({
           ...qualification,
           current_step: activeTab + 1,
+          step_data: updatedStepData,
         });
       }
     } catch (error) {
@@ -149,6 +156,7 @@ const OnboardVendorWizard = () => {
           <ServiceTypeClassification
             qualification={qualification}
             onApprove={handleStepApprove}
+            stepOneData={qualification?.step_data}
           />
         );
       case 3:
