@@ -4,6 +4,30 @@
       "source": "/api/:path*",
       "destination": "https://deeptech-production.up.railway.app/api/:path*"
     },
+    {
+      "source": "/upload",
+      "destination": "https://deeptech-production.up.railway.app/upload"
+    },
+    {
+      "source": "/files/:path*",
+      "destination": "https://deeptech-production.up.railway.app/files/:path*"
+    },
+    {
+      "source": "/generate",
+      "destination": "https://deeptech-production.up.railway.app/generate"
+    },
+    {
+      "source": "/regenerate",
+      "destination": "https://deeptech-production.up.railway.app/regenerate"
+    },
+    {
+      "source": "/follow-up-questions",
+      "destination": "https://deeptech-production.up.railway.app/follow-up-questions"
+    },
+    {
+      "source": "/health",
+      "destination": "https://deeptech-production.up.railway.app/health"
+    },
     { "source": "/(.*)", "destination": "/" }
   ],
   "buildCommand": "cd frontend && npm install && npm run build",

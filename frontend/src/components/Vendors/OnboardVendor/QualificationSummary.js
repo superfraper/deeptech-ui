@@ -9,7 +9,8 @@ const renderMarkdown = (text) => {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;');
 
-  // Headers
+  // Headers (handle #### down to #)
+  html = html.replace(/^#{4,} (.+)$/gm, '<h4 class="text-sm font-semibold mt-3 mb-1 text-gray-700">$1</h4>');
   html = html.replace(/^### (.+)$/gm, '<h3 class="text-base font-semibold mt-4 mb-1">$1</h3>');
   html = html.replace(/^## (.+)$/gm, '<h2 class="text-lg font-semibold mt-5 mb-2">$1</h2>');
   html = html.replace(/^# (.+)$/gm, '<h1 class="text-xl font-bold mt-6 mb-2">$1</h1>');
